@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Description>Typed client for the NeuroAnki fastanki bridge and in-memory mock API.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="10.0.10" />
+    <PackageReference Include="Waher.Networking" Version="4.6.5" />
+  </ItemGroup>
+</Project>
